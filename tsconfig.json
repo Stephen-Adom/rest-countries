@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"downlevelIteration": true,
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"removeComments": true,
+		"noEmitOnError": true,
+		"strict": false,
+		"alwaysStrict": false,
+		"noImplicitAny": false,
+		"typeRoots": ["node_modules/@types/"]
+	}
+}

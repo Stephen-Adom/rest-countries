@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Nunito Sans", sans-serif;
+    @apply bg-slate-100 dark:bg-baseDark1;
+  }
+
+  ::-webkit-scrollbar {
+    width: 14px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100 dark:bg-baseDark1;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-400 dark:bg-neutral-700 shadow-lg rounded-md;
+  }
+}
+
+@layer components {
+  .dropdown .dropdown-menu .dropdown-item {
+    @apply py-2 px-3 hover:bg-gray-100 hover:dark:bg-gray-700 cursor-pointer;
+  }
+
+  .card.country-item {
+    @apply rounded-md shadow-xl bg-white dark:bg-baseDark2 overflow-hidden cursor-pointer;
+  }
+
+  .card .card-body {
+    @apply py-6 px-8 text-gray-800 dark:text-slate-100;
+  }
+
+  .card .card-body ul li {
+    @apply flex items-center py-1;
+  }
+
+  .card .card-body ul li span {
+    @apply block;
+  }
+
+  .card .card-body ul li span:first-child {
+    @apply mr-2 font-bold;
+  }
+
+  .card.country-item .image-container {
+    width: 100%;
+    height: 160px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .country-detail-content .image-container {
+    @apply w-full h-[300px] sm:h-[300px] md:h-[400px];
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .country-detail-content .country-details .list-group .list-group-item {
+    @apply flex items-center py-1;
+  }
+
+  .country-detail-content .country-details .list-group .list-group-item span {
+    @apply block;
+  }
+
+  .country-detail-content
+    .country-details
+    .list-group
+    .list-group-item
+    span:first-child {
+    @apply mr-2 font-bold;
+  }
+
+  .border-countries-list .border-country-list-container .border-country {
+    @apply border border-gray-300 dark:border-gray-700 bg-white dark:bg-baseDark2 text-gray-800 dark:text-slate-100 px-6 py-2 text-sm rounded-md hover:shadow-xl hover:border-none cursor-pointer transition hover:ease-in-out;
+  }
+
+  .detailsPage {
+    @apply w-full bg-slate-100 dark:bg-baseDark1 mt-[82px];
+  }
+}
