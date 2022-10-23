@@ -165,6 +165,8 @@ const countryListSearchFilter = (search: string) => {
     });
 
     countryListContainer.innerHTML = countryHtmlText;
+
+    bindClickEventToCountry();
   }
 };
 
