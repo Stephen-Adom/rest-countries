@@ -14538,6 +14538,7 @@ const countryListSearchFilter = (search) => {
             countryHtmlText += html;
         });
         countryListContainer.innerHTML = countryHtmlText;
+        (0, exports.bindClickEventToCountry)();
     }
 };
 const filterCountryByRegion = async (filterId) => {
