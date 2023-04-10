@@ -1,6 +1,6 @@
 # Frontend Mentor - REST Countries API with color theme switcher solution
 
-This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+The Rest Countries API Website is a web application that allows users to search for and retrieve information about different countries using the Rest Countries API. The website has a mobile-first design and uses semantic HTML5 markup to ensure that it is accessible to all users. The website is built using Typescript and Tailwind CSS, a popular utility-first CSS framework that allow for quick and easy styling of the website.
 
 ## Table of contents
 
