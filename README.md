@@ -40,7 +40,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Tailwind Css
+- Tailwind CSS
 - Typescript
 - Mobile-first workflow
 - Rxjs
